@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Abilities from "./Abilities";
 
 export default function About() {
   return (
@@ -37,6 +38,15 @@ export default function About() {
             </p>
           </div>
         </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        viewport={{ once: true }}
+      >
+        <Abilities />
       </motion.div>
     </section>
   );

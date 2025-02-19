@@ -5,7 +5,7 @@ import { Mail, Linkedin, Github } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section className="py-20 px-4 md:px-8 bg-gray-900">
+    <section className="py-20 px-4 md:px-8 bg-gray-800">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           className="text-3xl md:text-4xl font-bold mb-8"

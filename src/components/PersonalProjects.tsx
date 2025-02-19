@@ -5,28 +5,26 @@ import { Github, ExternalLink } from "lucide-react";
 
 const personalProjects = [
   {
-    title: "Task Manager App",
+    title: "Search your movies",
     description:
-      "A full-stack application for managing tasks and projects using React, Node.js, and MongoDB.",
-    technologies: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/eduux/task-manager",
-    live: "https://task-manager-demo.com",
+      "Search for movies quickly and easily. You can search by movie title, or if you prefer, use artificial intelligence to find films based on descriptions, suggestions, or keywords. It's a smart and convenient way to discover new movies that match your preferences!.",
+    technologies: ["Nuxt", "Tailwind CSS", "TMDB API", "Open ai"],
+    github: "https://github.com/Eduux/search-your-movie",
+    live: "https://search-your-movie-two.vercel.app/",
   },
   {
-    title: "Weather Dashboard",
+    title: "Chat app",
     description:
-      "A responsive weather dashboard that displays current weather and forecasts using Vue.js and a weather API.",
-    technologies: ["Vue.js", "OpenWeatherMap API", "Tailwind CSS"],
-    github: "https://github.com/eduux/weather-dashboard",
-    live: "https://weather-dashboard-demo.com",
-  },
-  {
-    title: "Blog Platform",
-    description:
-      "A blog platform built with Next.js and GraphQL, featuring user authentication and markdown support.",
-    technologies: ["Next.js", "GraphQL", "PostgreSQL", "Tailwind CSS"],
-    github: "https://github.com/eduux/blog-platform",
-    live: "https://blog-platform-demo.com",
+      "Chat app is a simple chat application built with Next.js, Tailwind CSS, and Open ai. It allows you to chat with the user and get responses based on the user's input.",
+    technologies: [
+      "Next.js",
+      "Tailwind CSS",
+      "Open ai",
+      "Prisma",
+      "PostgreSQL",
+    ],
+    github: "https://github.com/Eduux/chat-sections",
+    live: "https://simple-chat-test.vercel.app/",
   },
 ];
 
@@ -37,7 +35,7 @@ export default function PersonalProjects() {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Personal Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {personalProjects.map((project, index) => (
             <motion.div
               key={index}
@@ -49,7 +47,9 @@ export default function PersonalProjects() {
             >
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4">{project.description}</p>
+                <p className="text-gray-300 mb-4 md:min-h-[165px]">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
                     <span
