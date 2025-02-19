@@ -19,7 +19,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-4">
           <Image
             className="rounded-full"
-            src="/eduardo.jpg"
+            src="/eduardo.JPG"
             alt="Profile"
             width={100}
             height={100}
