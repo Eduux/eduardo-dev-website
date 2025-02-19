@@ -31,7 +31,7 @@ const participatedProjects = [
   {
     title: "Agibank",
     description:
-      "As a Frontend Engineer, I played a key role in designing and developing a sales flow for Agibank’s personal loan sales process. Using React, TypeScript, and CSS-in-JS, I ensured a consistent and intuitive user experience, while implementing reusable components with Storybook to improve maintainability. In addition to frontend development, I also contributed to the backend by building a robust microservice in NestJS, leveraging MySQL and TypeORM for efficient data management. To ensure code quality and system reliability, I implemented unit tests using Jest. My work helped streamline the loan application process, delivering a scalable and high-performance solution.",
+      "As a Full Stack Engineer, I played a key role in designing and developing a sales flow for Agibank’s personal loan sales process. Using React, TypeScript, and CSS-in-JS, I ensured a consistent and intuitive user experience, while implementing reusable components with Storybook to improve maintainability. In addition to frontend development, I also contributed to the backend by building a robust microservice in NestJS, leveraging MySQL and TypeORM for efficient data management. To ensure code quality and system reliability, I implemented unit tests using Jest. My work helped streamline the loan application process, delivering a scalable and high-performance solution.",
     technologies: ["Next", "Sass", "Storybook", "Typescript", "React"],
     role: "Full Stack Engineer",
     siteUrl: "https://agibank.com.br/emprestimo-fgts",

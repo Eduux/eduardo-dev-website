@@ -5,6 +5,14 @@ import { Github, ExternalLink } from "lucide-react";
 
 const personalProjects = [
   {
+    title: "EcoRecycle",
+    description:
+      "EcoRecycle is a web application built with Next.js 15 and Tailwind CSS that educates users on how to recycle different types of materials properly. Our mission is to promote sustainability and raise awareness about the importance of recycling for a cleaner and healthier planet.",
+    technologies: ["Nuxt", "Tailwind CSS"],
+    github: "https://github.com/Eduux/eco-recycle",
+    live: "https://eco-recycle-nu.vercel.app/",
+  },
+  {
     title: "Search your movies",
     description:
       "Search for movies quickly and easily. You can search by movie title, or if you prefer, use artificial intelligence to find films based on descriptions, suggestions, or keywords. It's a smart and convenient way to discover new movies that match your preferences!.",
@@ -35,7 +43,7 @@ export default function PersonalProjects() {
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Personal Projects
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {personalProjects.map((project, index) => (
             <motion.div
               key={index}
@@ -47,18 +55,20 @@ export default function PersonalProjects() {
             >
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-300 mb-4 md:min-h-[165px]">
+                <p className="text-gray-300 mb-4 md:min-h-[192px]">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech) => (
-                    <span
-                      key={tech}
-                      className="bg-blue-500 text-white px-2 py-1 rounded text-sm"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+                <div className="md:min-h-[100px] mb-4 md:mb-0">
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.map((tech) => (
+                      <span
+                        key={tech}
+                        className="bg-blue-500 text-white px-2 py-1 rounded text-sm"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
                 <div className="flex justify-between">
                   <a
