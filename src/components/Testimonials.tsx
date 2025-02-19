@@ -22,7 +22,7 @@ const testimonials = [
     role: "Senior Fullstack Engineer @ House Numbers",
     img: "https://media.licdn.com/dms/image/v2/D4D03AQGo8C_6ygiMPA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1724194975847?e=1745452800&v=beta&t=JrzgR-c-fbQE-ZIgkeagQUQBtHgt4ZtTYG1evDDZtCQ",
     content:
-      "I had the opportunity to work with Eduardo Santana on several projects. He is highly proactive and consistently strives for best practices and modern concepts. Eduardo is an engaged and communicative team member, always contributing to the success of the team. I highly recommend him for any organization.",
+      "I had the pleasure of working with Eduardo Santana for several years, and his expertise in web development has been a tremendous asset to every project we've collaborated on. Eduardo has a deep understanding of UI/UX principles and consistently delivers structured and efficient code, ensuring that applications are both performant and user-friendly. He is highly resourceful, by having a vast knowledge of libraries/tools and best practices that have brought significant improvements to our projects. I highly recommend Eduardo to any team looking for a strong, technically skilled engineer who gets the job done.",
   },
 ];
 
