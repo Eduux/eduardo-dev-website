@@ -8,7 +8,7 @@ const testimonials = [
     role: "Founder @ cStructure.io",
     img: "https://media.licdn.com/dms/image/v2/C4D03AQEPFXjTrAmgEQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1652807122708?e=1745452800&v=beta&t=yZn-g08I2xljD2i3bMiuk0bj0Zy_1DedaWmkxoL1LyM",
     content:
-      "A professional with a deep understanding of the tech stacks he works with. He delivers high-quality results with precision and consistently meets deadlines. A top-tier professional that every team should have, as he goes above and beyond to solve challenges effectively.",
+      "Eduardo is a highly skilled senior frontend developer with a strong command of React, Typescript, Node, Tailwind, and shadcn. He quickly grasped our complex UX and made significant contributions to our react components, layouts, and plotting features. His code is consistently clean, well-documented, and performant, leading to a noticeable improvement in page load times, responsive design, and stability. Eduardo is also a pleasure to work with – he's a clear communicator, a collaborative team player, and always approaches challenges with a positive and proactive attitude.",
   },
   {
     name: "Nicolas Renard",
