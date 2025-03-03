@@ -35,7 +35,7 @@ export default function Hero() {
           label="Email"
         />
         <SocialButton
-          href="https://www.linkedin.com/in/eduardo-quadros"
+          href="https://www.linkedin.com/in/eduardo-quadros-b861a4124"
           icon={<Linkedin size={20} />}
           label="LinkedIn"
         />
