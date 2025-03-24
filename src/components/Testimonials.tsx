@@ -13,7 +13,7 @@ const testimonials = [
   {
     name: "Nicolas Renard",
     role: "Senior Fullstack Engineer @ HP",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQEi8TyJfnm5yw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707309765416?e=1745452800&v=beta&t=6Xd7m-_SddG4_bMVH8-bdoxKb4pdo6iuWNJVQjhjwkE",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQEvqrrczhfEqw/profile-displayphoto-shrink_200_200/B4DZWfY6aNHIAc-/0/1742135864383?e=1748476800&v=beta&t=bsmQWMW5uDog1chLRbL9ko1OsgDm-l_mKKWJuhR2bTU",
     content:
       "Eduardo is an excellent professional, always attentive and solving problems in a clear and analytical manner. He is constantly developing his skills and bringing innovative solutions to the project.",
   },
