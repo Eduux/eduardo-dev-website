@@ -27,7 +27,7 @@ export default function About() {
           />
           <div>
             <p className="text-lg mb-6 text-gray-300">
-              Software Engineer with 8+ years of experience in web development
+              Software Engineer with 10+ years of experience in web development
               and software engineering. Proven track record of delivering
               impactful solutions across industries such as banking, financial
               services, e-commerce, and marketplaces.
