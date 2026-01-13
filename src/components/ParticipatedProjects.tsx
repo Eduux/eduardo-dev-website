@@ -5,6 +5,14 @@ import { ExternalLink } from "lucide-react";
 
 const participatedProjects = [
   {
+    title: "CAIS",
+    description:
+      "Frontend Engineer at CAIS, working on a large-scale financial platform for structured investment products. Focused on building scalable, high-performance interfaces, integrating complex data flows, and delivering a reliable user experience using React, TypeScript, GraphQL, and Tailwind CSS.",
+    technologies: ["React", "TypeScript", "Tailwind", "GraphQL", "Jotai", "React Hook Form"],
+    role: "Frontend Engineer",
+    siteUrl: "https://www.caisgroup.com/asset-manager",
+  },
+  {
     title: "cStructure",
     description:
       "As a Full Stack Engineer, I contributed to the development of cStructure, a powerful causal reasoning platform designed to transform complex data into actionable insights. My main focus was on implementing interactive causal diagrams using React Flow, enabling users to intuitively explore and visualize relationships between variables. By leveraging Next, React, TypeScript, and Tailwind CSS, I optimized the UI/UX to ensure a seamless experience for researchers, business leaders, and policymakers. Additionally, I collaborated closely with the team to enhance performance and scalability, ensuring the platform could handle intricate datasets efficiently.",
@@ -19,14 +27,6 @@ const participatedProjects = [
     technologies: ["React", "TypeScript", "Styled Components", "Storybook"],
     role: "Full Stack Engineer",
     siteUrl: "https://www.unicred.com.br/solucoes/cartoes",
-  },
-  {
-    title: "Hypery.io",
-    description:
-      "As a Frontend Developer, I played a key role in building the frontend for Hypery.io, a cutting-edge NFT sales platform focused on music and digital assets. My contributions included integrating MetaMask and Concordium wallets to ensure secure transactions and developing custom web music players for an immersive user experience. I worked extensively with Vue 3, Tailwind CSS, Pinia, GraphQL, and TypeScript, leveraging the Composition API to build scalable and maintainable components. By prioritizing performance and user experience, I helped create a seamless interface that allows artists and collectors to engage with NFTs effortlessly.",
-    technologies: ["Vue 3", "TypeScript", "Tailwind", "GraphQL", "Pinia"],
-    role: "Frontend Engineer",
-    siteUrl: "https://hypery.io",
   },
   {
     title: "Agibank",

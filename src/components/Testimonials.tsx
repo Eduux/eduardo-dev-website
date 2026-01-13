@@ -6,21 +6,21 @@ const testimonials = [
   {
     name: "Erick R Scott",
     role: "Founder @ cStructure.io",
-    img: "https://media.licdn.com/dms/image/v2/C4D03AQEPFXjTrAmgEQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1652807122708?e=1745452800&v=beta&t=yZn-g08I2xljD2i3bMiuk0bj0Zy_1DedaWmkxoL1LyM",
+    img: "https://media.licdn.com/dms/image/v2/C4D03AQEPFXjTrAmgEQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1652807122708?e=1769644800&v=beta&t=L5w4qtSctX4qQ57TGcGMiqoXoJOYzeQV1IrXpAvrBUU",
     content:
       "Eduardo is a highly skilled senior frontend developer with a strong command of React, Typescript, Node, Tailwind, and shadcn. He quickly grasped our complex UX and made significant contributions to our react components, layouts, and plotting features. His code is consistently clean, well-documented, and performant, leading to a noticeable improvement in page load times, responsive design, and stability. Eduardo is also a pleasure to work with – he's a clear communicator, a collaborative team player, and always approaches challenges with a positive and proactive attitude.",
   },
   {
     name: "Nicolas Renard",
     role: "Senior Fullstack Engineer @ HP",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQEvqrrczhfEqw/profile-displayphoto-shrink_200_200/B4DZWfY6aNHIAc-/0/1742135864383?e=1748476800&v=beta&t=bsmQWMW5uDog1chLRbL9ko1OsgDm-l_mKKWJuhR2bTU",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQEvqrrczhfEqw/profile-displayphoto-shrink_100_100/B4DZWfY6aNHIAY-/0/1742135864406?e=1769644800&v=beta&t=uhguOLOwGiuqCmk_XMq9-7hOSOKdXKeUIkDx3k9fJbI",
     content:
       "Eduardo is an excellent professional, always attentive and solving problems in a clear and analytical manner. He is constantly developing his skills and bringing innovative solutions to the project.",
   },
   {
     name: "André Treib",
     role: "Senior Fullstack Engineer @ House Numbers",
-    img: "https://media.licdn.com/dms/image/v2/D4D03AQGo8C_6ygiMPA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1724194975847?e=1745452800&v=beta&t=JrzgR-c-fbQE-ZIgkeagQUQBtHgt4ZtTYG1evDDZtCQ",
+    img: "https://media.licdn.com/dms/image/v2/D4D03AQGo8C_6ygiMPA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1724194975847?e=1769644800&v=beta&t=yG3TY7xu1J6qJQzxkobvMRi08Y1fV5knPzR81U9I8LY",
     content:
       "I had the pleasure of working with Eduardo Santana for several years, and his expertise in web development has been a tremendous asset to every project we've collaborated on. Eduardo has a deep understanding of UI/UX principles and consistently delivers structured and efficient code, ensuring that applications are both performant and user-friendly. He is highly resourceful, by having a vast knowledge of libraries/tools and best practices that have brought significant improvements to our projects. I highly recommend Eduardo to any team looking for a strong, technically skilled engineer who gets the job done.",
   },
