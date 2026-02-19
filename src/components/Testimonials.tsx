@@ -44,11 +44,6 @@ export default function Testimonials() {
               viewport={{ once: true }}
             >
               <div className="flex items-center mb-4">
-                <img
-                  src={testimonial.img}
-                  alt={testimonial.name}
-                  className="rounded-full bg-gray-600 mr-4 w-12"
-                />
                 <div>
                   <h3 className="font-semibold text-lg">{testimonial.name}</h3>
                   <p className="text-gray-400 text-sm">{testimonial.role}</p>
